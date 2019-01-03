@@ -1,0 +1,85 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+nav {
+  position: fixed;
+  text-align: right;
+}
+nav a {
+  margin-top: 5px;
+}
+ul {
+  list-style-type: none;
+}
+form {
+  text-align: right;
+}
+form label {
+  width: 100%;
+}
+form label textarea {
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.nav-link {
+  text-align: right;
+}
+.forum {
+  padding-top: 100px;
+}
+.info {
+  padding: 1.5rem;
+}
+.update form {
+  margin-left: 8px;
+}
+.update__post {
+  display: flex;
+}
+.update__comment {
+  display: flex;
+}
+.post {
+  margin-top: 2rem;
+  display: flex;
+}
+.post__head {
+  display: flex;
+  justify-content: space-between;
+}
+.comment {
+  margin-top: 30px;
+}
+.comment__read {
+  margin-bottom: 30px;
+}
+.comment__read--header {
+  display: flex;
+  justify-content: space-between;
+}
+.page {
+  padding: 30px;
+}
+.page ul {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#footer {
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #444;
+}
+#footer__copy {
+  line-height: 50px;
+  text-align: center;
+}
